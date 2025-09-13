@@ -320,11 +320,6 @@ alert http any any -> any any (
 - macOS security documentation
 - MITRE ATT&CK framework mappings
 
-### C. Contact Information
-- Security Operations Center: [REDACTED]
-- Incident Response Team: [REDACTED]
-- Threat Intelligence: [REDACTED]
-
 ---
 
 **Classification**: TLP:CLEAR  
