@@ -1,0 +1,4 @@
+kMDItemWhereFroms = (
+    "https://lefenari.com/a6626016ec222921a5temp/ac64fb58175403c494/load.1739864879d2208b9dfd5cf4d3419.php?call=stream",
+    "https://streamyard.org/"
+)

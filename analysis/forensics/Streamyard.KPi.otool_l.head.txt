@@ -1,0 +1,1 @@
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Streamyard.KPi: is not an object file

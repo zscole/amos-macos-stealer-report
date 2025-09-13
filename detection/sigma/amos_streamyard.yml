@@ -1,0 +1,92 @@
+title: Amos StreamYard Campaign Detection
+id: a7c3d1e2-5b4f-4d6e-8f9a-1b2c3d4e5f6a
+status: experimental
+description: Detects Amos InfoStealer masquerading as StreamYard application
+author: Zak Cole
+date: 2025/09/12
+modified: 2025/09/12
+references:
+  - https://github.com/zscole/amos-macos-stealer-report/blob/main/INCIDENT_REPORT.md
+tags:
+  - attack.initial_access.t1566.001
+  - attack.execution.t1204.002
+  - attack.defense_evasion.t1553.001
+  - attack.credential_access.t1555.003
+  - attack.collection.t1114
+logsource:
+  product: macos
+  service: unified_log
+detection:
+  selection_osascript:
+    process_name: 'osascript'
+    command_line|contains|all:
+      - 'xattr -c'
+      - '/tmp/.Streamyard'
+  selection_execution:
+    process_path: '/tmp/.Streamyard'
+  selection_quarantine:
+    event_message|contains: 'com.apple.quarantine'
+    file_path|contains: 'Streamyard.dmg'
+  selection_network:
+    dest_port: 443
+    process_name: '.Streamyard'
+  selection_filesystem:
+    file_path|contains:
+      - '/private/var/db/powerlog/'
+      - 'Mail.app/Contents/Extensions'
+      - 'Messages.app/Contents/Extensions'
+  condition: selection_osascript or selection_execution or (selection_quarantine and selection_network) or selection_filesystem
+falsepositives:
+  - Legitimate StreamYard web application (no desktop app exists)
+  - Other applications using similar names
+level: high
+
+---
+
+title: Amos C2 Communication Pattern
+id: b8d4e2f3-6c5f-5e7f-9g0b-2c3d4e5f6g7b
+status: experimental
+description: Detects high-volume encrypted C2 traffic pattern of Amos InfoStealer
+author: Zak Cole
+date: 2025/09/12
+logsource:
+  product: macos
+  service: network
+detection:
+  selection:
+    dest_port: 443
+    connection_count: '>100'
+    time_window: '5m'
+    src_port_range: '57000-58000'
+  condition: selection
+falsepositives:
+  - Legitimate applications with high HTTPS traffic
+  - Video streaming applications
+level: medium
+
+---
+
+title: Amos Persistence Creation
+id: c9e5f3f4-7d6f-6f8g-0h1c-3d4e5f6g7h8c
+status: experimental
+description: Detects LaunchAgent creation by Amos InfoStealer
+author: Zak Cole
+date: 2025/09/12
+logsource:
+  product: macos
+  service: file
+detection:
+  selection:
+    file_path|startswith: 
+      - '/Users/*/Library/LaunchAgents/'
+      - '~/Library/LaunchAgents/'
+    file_name|endswith: '.plist'
+    process_name|contains:
+      - '.Streamyard'
+      - 'osascript'
+  timeframe: 10m
+  condition: selection
+falsepositives:
+  - Legitimate software installation
+  - System updates
+level: high

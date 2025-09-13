@@ -1,0 +1,9 @@
+total 6952
+drwxr-xr-x@ 8 zak   staff      340 Sep 12 08:03 .
+drwxr-xr-x  6 root  wheel      192 Sep 12 11:13 ..
+drwxr-xr-x  3 zak   staff      102 Sep 12 08:03 .background
+-rw-r--r--@ 1 zak   staff    10244 Sep 12 08:03 .DS_Store
+-rwxr-xr-x  1 zak   staff  3278568 Sep 12 08:03 .Streamyard
+-rw-r--r--@ 1 zak   staff    99386 Sep 12 08:03 .VolumeIcon.icns
+-rwxr-xr-x@ 1 zak   staff     2821 Sep 12 08:03 Streamyard.KPi
+-rw-r--r--@ 1 zak   staff      864 Aug 20 12:22 Terminal

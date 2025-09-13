@@ -1,0 +1,150 @@
+{
+  "name": "Amos StreamYard Campaign",
+  "versions": {
+    "attack": "14",
+    "navigator": "4.9.1",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "MITRE ATT&CK techniques observed in Amos StreamYard phishing campaign",
+  "filters": {
+    "platforms": ["macOS"]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1566.001",
+      "tactic": "initial-access",
+      "color": "#ff6666",
+      "comment": "Spearphishing attachment via email",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1204.002",
+      "tactic": "execution",
+      "color": "#ff6666",
+      "comment": "User execution of malicious DMG",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1553.001",
+      "tactic": "defense-evasion",
+      "color": "#ff6666",
+      "comment": "Gatekeeper bypass via xattr -c",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1027",
+      "tactic": "defense-evasion",
+      "color": "#ff9966",
+      "comment": "Multi-layer obfuscation (base64, XOR)",
+      "enabled": true,
+      "score": 75
+    },
+    {
+      "techniqueID": "T1573",
+      "tactic": "command-and-control",
+      "color": "#ff6666",
+      "comment": "Encrypted channel (TLS/HTTPS)",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1055",
+      "tactic": "privilege-escalation",
+      "color": "#ffcc66",
+      "comment": "Process injection",
+      "enabled": true,
+      "score": 50
+    },
+    {
+      "techniqueID": "T1003",
+      "tactic": "credential-access",
+      "color": "#ff9966",
+      "comment": "OS credential dumping",
+      "enabled": true,
+      "score": 75
+    },
+    {
+      "techniqueID": "T1555.003",
+      "tactic": "credential-access",
+      "color": "#ff6666",
+      "comment": "Credentials from web browsers",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1083",
+      "tactic": "discovery",
+      "color": "#ff6666",
+      "comment": "File and directory discovery",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1005",
+      "tactic": "collection",
+      "color": "#ff6666",
+      "comment": "Data from local system",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1114",
+      "tactic": "collection",
+      "color": "#ff6666",
+      "comment": "Email collection (Mail.app)",
+      "enabled": true,
+      "score": 100
+    },
+    {
+      "techniqueID": "T1119",
+      "tactic": "collection",
+      "color": "#ff6666",
+      "comment": "Automated collection",
+      "enabled": true,
+      "score": 100
+    }
+  ],
+  "gradient": {
+    "colors": ["#ffffff", "#ff6666"],
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "legendItems": [
+    {
+      "label": "Observed in sandbox",
+      "color": "#ff6666"
+    },
+    {
+      "label": "Likely capability",
+      "color": "#ff9966"
+    },
+    {
+      "label": "Possible capability",
+      "color": "#ffcc66"
+    }
+  ],
+  "metadata": [
+    {
+      "name": "Created",
+      "value": "2025-09-12"
+    },
+    {
+      "name": "Author",
+      "value": "Security Research Team"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+### .Streamyard
+bb364083b01ce851b33fa2ba121603322d6a700e984f947a349f010502ef79f2  /Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard
+MD5 (/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard) = f3a55b413441b961477a0b33c7b1b693
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard (for architecture x86_64):	Mach-O 64-bit executable x86_64
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard (for architecture arm64):	Mach-O 64-bit executable arm64
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### .DS_Store
+e193b562fdd7cccfb96a4ddac682aae73d1136c213f72e6af74c2c3ddfa0579b  /Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store
+MD5 (/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store) = 6f298eabf82dea9fcc0b5a5d5ab19091
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store: Apple Desktop Services Store
+com.apple.FinderInfo:         @
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### Terminal
+1a6bd9256942a074713a004cfff0aeef570e299cb257533be4d580305688d385  /Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal
+MD5 (/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal) = 92eee03e42746c9d1912e3a0f8eda78b
+/Users/[REDACTED]/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal: MacOS Alias file

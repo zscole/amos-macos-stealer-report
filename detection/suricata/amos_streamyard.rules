@@ -1,0 +1,51 @@
+# Suricata Rules for Amos StreamYard Campaign
+# Generated: 2025-09-12
+# Threat: Amos InfoStealer masquerading as StreamYard
+
+# Detect payload delivery from lefenari.com
+alert http any any -> any any (
+  msg:"Amos StreamYard DMG Delivery from lefenari.com";
+  flow:to_client,established;
+  http.host; content:"lefenari.com"; nocase;
+  http.uri; content:"/load.";
+  http.uri; content:"call=stream";
+  filemagic:"Macintosh disk image";
+  classtype:trojan-activity;
+  reference:url,github.com/zscole/amos-macos-stealer-report/INDICATORS.md;
+  sid:2025091201; rev:1;
+)
+
+# Detect access to fake StreamYard phishing site
+alert http any any -> any any (
+  msg:"Fake StreamYard Phishing Site Access";
+  flow:to_server,established;
+  http.host; content:"streamyard.org"; nocase;
+  http.method; content:"GET";
+  http.user_agent; content:"Mozilla"; nocase;
+  classtype:attempted-user;
+  reference:url,github.com/zscole/amos-macos-stealer-report/INDICATORS.md;
+  sid:2025091202; rev:1;
+)
+
+# Detect potential C2 callback patterns
+alert http any any -> any any (
+  msg:"Potential Amos InfoStealer C2 Callback";
+  flow:to_server,established;
+  http.method; content:"POST";
+  http.content_type; content:"application/json";
+  content:"|7b|"; depth:1; 
+  pcre:"/\"uuid\":|\"hostname\":|\"username\":/i";
+  classtype:trojan-activity;
+  sid:2025091203; rev:1;
+)
+
+# Detect DMG download with suspicious naming
+alert http any any -> any any (
+  msg:"Suspicious StreamYard DMG Download";
+  flow:to_client,established;
+  http.response_body; content:"Streamyard.dmg";
+  file.name; content:"Streamyard.dmg";
+  filemagic:"Macintosh disk image";
+  classtype:trojan-activity;
+  sid:2025091204; rev:1;
+)

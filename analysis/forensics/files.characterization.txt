@@ -1,0 +1,43 @@
+### .Streamyard
+bb364083b01ce851b33fa2ba121603322d6a700e984f947a349f010502ef79f2  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard) = f3a55b413441b961477a0b33c7b1b693
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard (for architecture x86_64):	Mach-O 64-bit executable x86_64
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.Streamyard (for architecture arm64):	Mach-O 64-bit executable arm64
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### .DS_Store
+e193b562fdd7cccfb96a4ddac682aae73d1136c213f72e6af74c2c3ddfa0579b  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store) = 6f298eabf82dea9fcc0b5a5d5ab19091
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.DS_Store: Apple Desktop Services Store
+com.apple.FinderInfo:         @
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### Terminal
+1a6bd9256942a074713a004cfff0aeef570e299cb257533be4d580305688d385  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal) = 92eee03e42746c9d1912e3a0f8eda78b
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Terminal: MacOS Alias file
+com.apple.FinderInfo: fapaMACS€
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### .VolumeIcon.icns
+6ee24180dc417177fbdbc1cd43ca41a756f76786a3e89a8240c5c62322c45046  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.VolumeIcon.icns
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.VolumeIcon.icns) = bcf24232136b94a5fe5221b31a8b9508
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.VolumeIcon.icns: Mac OS X icon, 99386 bytes, "ic09" type
+com.apple.FinderInfo: 
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### .background/H7sZmmAcYO.png
+2aa8af0abc61f692e03514c0189f248bff55a49b1d3bd52922a0db6b2b967ef2  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.background/H7sZmmAcYO.png
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.background/H7sZmmAcYO.png) = 29551b3cfe67dda9cbedfda8065d44bb
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/.background/H7sZmmAcYO.png: PNG image data, 800 x 600, 8-bit/color RGBA, non-interlaced
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+
+### Streamyard.KPi
+0b96c2efd47fe7801a4300c21f4ee8dd864aa499b2e68cd82649919445368edf  /Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Streamyard.KPi
+MD5 (/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Streamyard.KPi) = b49d70192e683e3a12acc181b4ca1b5d
+/Users/zak/Desktop/streamyard_forensics_20250912_114516/artifacts/mounted_copy/Streamyard.KPi: Bourne-Again shell script text executable, ASCII text, with very long lines (357)
+com.apple.FinderInfo: 
+com.apple.ResourceFork: 
+com.apple.quarantine: 0281;68c442ed;Chrome;701EA2CA-061C-43F4-AD81-4FC927C13198
+

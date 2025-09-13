@@ -1,0 +1,2 @@
+/dev/disk6          	GUID_partition_scheme          	
+/dev/disk6s1        	Apple_HFS                      	/Volumes/Streamyard 1

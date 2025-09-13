@@ -1,0 +1,6 @@
+total 24
+-rw-r--r--@ 1 zak  staff  181 Aug 21 15:05 com.google.keystone.xpcservice.plist
+-rw-r--r--@ 1 zak  staff  181 Aug 21 15:05 com.google.keystone.agent.plist
+-rw-r--r--@ 1 zak  staff  870 Aug 21 15:05 com.google.GoogleUpdater.wake.plist
+total 0
+total 0

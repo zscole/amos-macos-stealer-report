@@ -1,0 +1,3 @@
+276538        0 drwx------   88 zak              staff                2816 Sep 12 11:20 /Users/[REDACTED]/Downloads
+4254839     2760 -rw-r--r--    1 zak              staff             1410934 Sep 12 10:57 /Users/[REDACTED]/Downloads/Streamyard.dmg
+4261093   100896 -rw-r--r--    1 zak              staff            51458667 Sep 12 11:20 /Users/[REDACTED]/Downloads/Zoom.pkg
