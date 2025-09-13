@@ -79,6 +79,9 @@ On September 12, 2025, I was targeted by a phishing attack. Twitter user @0xMaur
 - **Mach-O Payload**: `bb364083b01ce851b33fa2ba121603322d6a700e984f947a349f010502ef79f2`
 - **Bash Loader**: `0b96c2efd47fe7801a4300c21f4ee8dd864aa499b2e68cd82649919445368edf`
 
+### Malware Sample Access
+The actual malware sample is available to legitimate security researchers upon request. Contact: zcole@linux.com with your affiliation and intended use.
+
 See [INDICATORS.md](INDICATORS.md) for complete IOC list.
 
 ## Detection Rules
@@ -129,6 +132,12 @@ If you have additional information about this campaign or similar attacks, pleas
 1. Open an issue with details
 2. Submit a pull request with new IOCs
 3. Contact via email for sensitive information
+
+### Malware Sample Requests
+Security researchers requiring access to the actual malware sample for analysis can contact zcole@linux.com with:
+- Your name and affiliation
+- Intended use of the sample
+- Confirmation you have appropriate malware analysis environment
 
 ## CRITICAL SAFETY WARNING
 

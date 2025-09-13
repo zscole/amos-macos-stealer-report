@@ -18,6 +18,12 @@ If you've encountered similar attacks:
 3. Provide timeline and TTPs observed
 4. Do NOT include active malware samples in issues
 
+### Malware Sample Handling
+- **Never upload malware to GitHub**
+- Actual malware samples available to vetted researchers via email: zcole@linux.com
+- Include your affiliation and research intent when requesting
+- Samples shared using industry-standard encryption
+
 ### Adding Detection Rules
 1. Fork the repository
 2. Add rules to appropriate directories:

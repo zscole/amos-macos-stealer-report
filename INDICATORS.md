@@ -336,6 +336,13 @@ For questions or additional IOCs related to this campaign:
 - Submit via pull request
 - Security community sharing encouraged
 
+## Malware Sample Access
+
+The actual malware sample is available to legitimate security researchers for analysis:
+- **Contact**: zcole@linux.com
+- **Required**: Affiliation and intended research use
+- **Format**: Encrypted ZIP with standard malware research protocols
+
 ---
 
 **Note**: These IOCs are provided for defensive purposes only. Always verify indicators in your environment before taking action.
